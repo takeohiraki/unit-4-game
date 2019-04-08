@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CrystalCollector
+  </title>
+
+    <!-- Added a link to our external stylesheet-->
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-md-offset-2 col-md-8"> -->
+            <div class="col-md-10">
+                <div class="jumbotron">
+                    <h1>CrystalsCollector!</h2>
+                </div>
+
+                <div class="jumbotron">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. by clicking on a crystal you will add a specific amount of points to your total score..</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div id="goal-box">
+                    <h1 id="goal">3</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="total-score">
+                    <p id="end-game-message"></p>
+                    <p id="wins">Wins: <span id="num-wins">0</span></p>
+                    <p id="losses">Losses: <span id="num-losses">0</span></p>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-2">
+                <button id="button-1" class="btn btn-default gems" value="gem1">
+                    <img class="gem_images" src="assets/images/crystal.png" alt="crystal">
+                </button>
+            </div>
+        
+            <div class="col-md-2">
+                <button id="button-2" class="btn btn-default gems" value="gem2">
+                    <img class="gem_images"src="assets/images/diamond.png" alt="diamond">
+                </button>
+            </div>
+
+            <div class="col-md-2">
+                <button id="button-3" class="btn btn-default gems" value="gem3">
+                    <img class="gem_images" src="assets/images/emerald.png" alt="emerald">
+                </button>
+            </div>
+
+            <div class="col-md-2">
+                <button id="button-3" class="btn btn-default gems" value="gem4">
+                    <img class="gem_images" src="assets/images/topaz.png" alt="topaz">
+                </button>
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>Your total score is:</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h1 id="score"><span>0</span></h1>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/game.js"></script>
+
+
+</html>
+
+

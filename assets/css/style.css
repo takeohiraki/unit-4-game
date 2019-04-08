@@ -1,0 +1,40 @@
+
+body {
+    background: lightcyan;
+  }
+
+.jumbotron {
+    padding: 20px;
+}
+
+#goal-box {
+    background-color: lightgreen;
+    height:100px;
+    border: solid 1px lightgreen; 
+}
+
+#total-score {
+    background-color: lightblue;
+    height:100px;
+    border: solid 1px lightblue; 
+}
+
+#score {
+    background-color: lightblue;
+    height:100px;
+    border: solid 1px lightblue; 
+}
+
+.score-text {
+    background-color: lightblue;
+    height:50px;
+    border: solid 1px lightblue; 
+}
+
+.gems {
+    background-color: white;
+}
+
+.gem_images {
+    width: 70px;
+}
